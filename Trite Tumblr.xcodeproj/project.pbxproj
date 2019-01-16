@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA3A3AE21EFF422002DE255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3A3AD21EFF422002DE255 /* AppDelegate.swift */; };
+		3FA3A3B021EFF422002DE255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3A3AF21EFF422002DE255 /* ViewController.swift */; };
+		3FA3A3B321EFF422002DE255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA3A3B121EFF422002DE255 /* Main.storyboard */; };
+		3FA3A3B521EFF422002DE255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA3A3B421EFF422002DE255 /* Assets.xcassets */; };
+		3FA3A3B821EFF422002DE255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA3A3B621EFF422002DE255 /* LaunchScreen.storyboard */; };
+		3FA3A3C321EFF422002DE255 /* Trite_TumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3A3C221EFF422002DE255 /* Trite_TumblrTests.swift */; };
+		3FA3A3CE21EFF422002DE255 /* Trite_TumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3A3CD21EFF422002DE255 /* Trite_TumblrUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA3A3BF21EFF422002DE255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA3A3A221EFF421002DE255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA3A3A921EFF422002DE255;
+			remoteInfo = "Trite Tumblr";
+		};
+		3FA3A3CA21EFF422002DE255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA3A3A221EFF421002DE255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA3A3A921EFF422002DE255;
+			remoteInfo = "Trite Tumblr";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FA3A3AA21EFF422002DE255 /* Trite Tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trite Tumblr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA3A3AD21EFF422002DE255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FA3A3AF21EFF422002DE255 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FA3A3B221EFF422002DE255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA3A3B421EFF422002DE255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA3A3B721EFF422002DE255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA3A3B921EFF422002DE255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA3A3BE21EFF422002DE255 /* Trite TumblrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trite TumblrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA3A3C221EFF422002DE255 /* Trite_TumblrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trite_TumblrTests.swift; sourceTree = "<group>"; };
+		3FA3A3C421EFF422002DE255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA3A3C921EFF422002DE255 /* Trite TumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trite TumblrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA3A3CD21EFF422002DE255 /* Trite_TumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trite_TumblrUITests.swift; sourceTree = "<group>"; };
+		3FA3A3CF21EFF422002DE255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA3A3A721EFF422002DE255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA3A3BB21EFF422002DE255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA3A3C621EFF422002DE255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA3A3A121EFF421002DE255 = {
+			isa = PBXGroup;
+			children = (
+				3FA3A3AC21EFF422002DE255 /* Trite Tumblr */,
+				3FA3A3C121EFF422002DE255 /* Trite TumblrTests */,
+				3FA3A3CC21EFF422002DE255 /* Trite TumblrUITests */,
+				3FA3A3AB21EFF422002DE255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA3A3AB21EFF422002DE255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA3A3AA21EFF422002DE255 /* Trite Tumblr.app */,
+				3FA3A3BE21EFF422002DE255 /* Trite TumblrTests.xctest */,
+				3FA3A3C921EFF422002DE255 /* Trite TumblrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA3A3AC21EFF422002DE255 /* Trite Tumblr */ = {
+			isa = PBXGroup;
+			children = (
+				3FA3A3AD21EFF422002DE255 /* AppDelegate.swift */,
+				3FA3A3AF21EFF422002DE255 /* ViewController.swift */,
+				3FA3A3B121EFF422002DE255 /* Main.storyboard */,
+				3FA3A3B421EFF422002DE255 /* Assets.xcassets */,
+				3FA3A3B621EFF422002DE255 /* LaunchScreen.storyboard */,
+				3FA3A3B921EFF422002DE255 /* Info.plist */,
+			);
+			path = "Trite Tumblr";
+			sourceTree = "<group>";
+		};
+		3FA3A3C121EFF422002DE255 /* Trite TumblrTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA3A3C221EFF422002DE255 /* Trite_TumblrTests.swift */,
+				3FA3A3C421EFF422002DE255 /* Info.plist */,
+			);
+			path = "Trite TumblrTests";
+			sourceTree = "<group>";
+		};
+		3FA3A3CC21EFF422002DE255 /* Trite TumblrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA3A3CD21EFF422002DE255 /* Trite_TumblrUITests.swift */,
+				3FA3A3CF21EFF422002DE255 /* Info.plist */,
+			);
+			path = "Trite TumblrUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA3A3A921EFF422002DE255 /* Trite Tumblr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA3A3D221EFF422002DE255 /* Build configuration list for PBXNativeTarget "Trite Tumblr" */;
+			buildPhases = (
+				3FA3A3A621EFF422002DE255 /* Sources */,
+				3FA3A3A721EFF422002DE255 /* Frameworks */,
+				3FA3A3A821EFF422002DE255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trite Tumblr";
+			productName = "Trite Tumblr";
+			productReference = 3FA3A3AA21EFF422002DE255 /* Trite Tumblr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA3A3BD21EFF422002DE255 /* Trite TumblrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA3A3D521EFF422002DE255 /* Build configuration list for PBXNativeTarget "Trite TumblrTests" */;
+			buildPhases = (
+				3FA3A3BA21EFF422002DE255 /* Sources */,
+				3FA3A3BB21EFF422002DE255 /* Frameworks */,
+				3FA3A3BC21EFF422002DE255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA3A3C021EFF422002DE255 /* PBXTargetDependency */,
+			);
+			name = "Trite TumblrTests";
+			productName = "Trite TumblrTests";
+			productReference = 3FA3A3BE21EFF422002DE255 /* Trite TumblrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FA3A3C821EFF422002DE255 /* Trite TumblrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA3A3D821EFF422002DE255 /* Build configuration list for PBXNativeTarget "Trite TumblrUITests" */;
+			buildPhases = (
+				3FA3A3C521EFF422002DE255 /* Sources */,
+				3FA3A3C621EFF422002DE255 /* Frameworks */,
+				3FA3A3C721EFF422002DE255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA3A3CB21EFF422002DE255 /* PBXTargetDependency */,
+			);
+			name = "Trite TumblrUITests";
+			productName = "Trite TumblrUITests";
+			productReference = 3FA3A3C921EFF422002DE255 /* Trite TumblrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA3A3A221EFF421002DE255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jeremy Chang";
+				TargetAttributes = {
+					3FA3A3A921EFF422002DE255 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3FA3A3BD21EFF422002DE255 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3FA3A3A921EFF422002DE255;
+					};
+					3FA3A3C821EFF422002DE255 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3FA3A3A921EFF422002DE255;
+					};
+				};
+			};
+			buildConfigurationList = 3FA3A3A521EFF421002DE255 /* Build configuration list for PBXProject "Trite Tumblr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA3A3A121EFF421002DE255;
+			productRefGroup = 3FA3A3AB21EFF422002DE255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA3A3A921EFF422002DE255 /* Trite Tumblr */,
+				3FA3A3BD21EFF422002DE255 /* Trite TumblrTests */,
+				3FA3A3C821EFF422002DE255 /* Trite TumblrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA3A3A821EFF422002DE255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA3A3B821EFF422002DE255 /* LaunchScreen.storyboard in Resources */,
+				3FA3A3B521EFF422002DE255 /* Assets.xcassets in Resources */,
+				3FA3A3B321EFF422002DE255 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA3A3BC21EFF422002DE255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA3A3C721EFF422002DE255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA3A3A621EFF422002DE255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA3A3B021EFF422002DE255 /* ViewController.swift in Sources */,
+				3FA3A3AE21EFF422002DE255 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA3A3BA21EFF422002DE255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA3A3C321EFF422002DE255 /* Trite_TumblrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA3A3C521EFF422002DE255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA3A3CE21EFF422002DE255 /* Trite_TumblrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA3A3C021EFF422002DE255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA3A3A921EFF422002DE255 /* Trite Tumblr */;
+			targetProxy = 3FA3A3BF21EFF422002DE255 /* PBXContainerItemProxy */;
+		};
+		3FA3A3CB21EFF422002DE255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA3A3A921EFF422002DE255 /* Trite Tumblr */;
+			targetProxy = 3FA3A3CA21EFF422002DE255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA3A3B121EFF422002DE255 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA3A3B221EFF422002DE255 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA3A3B621EFF422002DE255 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA3A3B721EFF422002DE255 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA3A3D021EFF422002DE255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FA3A3D121EFF422002DE255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA3A3D321EFF422002DE255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trite Tumblr/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moldingtofu.github.io.Trite-Tumblr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA3A3D421EFF422002DE255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trite Tumblr/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moldingtofu.github.io.Trite-Tumblr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FA3A3D621EFF422002DE255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trite TumblrTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moldingtofu.github.io.Trite-TumblrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trite Tumblr.app/Trite Tumblr";
+			};
+			name = Debug;
+		};
+		3FA3A3D721EFF422002DE255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trite TumblrTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moldingtofu.github.io.Trite-TumblrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trite Tumblr.app/Trite Tumblr";
+			};
+			name = Release;
+		};
+		3FA3A3D921EFF422002DE255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trite TumblrUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moldingtofu.github.io.Trite-TumblrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trite Tumblr";
+			};
+			name = Debug;
+		};
+		3FA3A3DA21EFF422002DE255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trite TumblrUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moldingtofu.github.io.Trite-TumblrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trite Tumblr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA3A3A521EFF421002DE255 /* Build configuration list for PBXProject "Trite Tumblr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA3A3D021EFF422002DE255 /* Debug */,
+				3FA3A3D121EFF422002DE255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA3A3D221EFF422002DE255 /* Build configuration list for PBXNativeTarget "Trite Tumblr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA3A3D321EFF422002DE255 /* Debug */,
+				3FA3A3D421EFF422002DE255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA3A3D521EFF422002DE255 /* Build configuration list for PBXNativeTarget "Trite TumblrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA3A3D621EFF422002DE255 /* Debug */,
+				3FA3A3D721EFF422002DE255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA3A3D821EFF422002DE255 /* Build configuration list for PBXNativeTarget "Trite TumblrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA3A3D921EFF422002DE255 /* Debug */,
+				3FA3A3DA21EFF422002DE255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA3A3A221EFF421002DE255 /* Project object */;
+}
